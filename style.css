@@ -1,0 +1,23 @@
+.bgclr{
+background-color: #14213d;
+}
+.colr{
+    background-color: #001d4a;
+}
+.showResult{
+    background-color: rgba(0,0,0, .8);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    color: wheat;
+    
+}
+.resltshw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

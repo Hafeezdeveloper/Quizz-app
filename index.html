@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bgclr">
+        <h1 class="text-warning bg-info bg-opacity-10 border border-info border-start-0 rounded-end  text-center mt-3 ">Quiz App</h1>
+        <h1 class="container text-warning bg-info bg-opacity-10 border border-primary d-block border-start-0 rounded-end  text-center mt-5 ">General Knowldege Questions</h1>
+        <div class="mt-5">
+            <p class="text-warning text-center fs-5">Question <span id="displaycurrentqes"></span>/ <span id="displayallques"></span></p>
+        </div>
+        <div class=" colr mx-2 py-5">
+        <div>
+            <p  class="text-warning text-center fs-1" id="mainQues">Question........</p>
+        </div>
+        <div>
+            <div>
+                <div id="optionAll" class="row mx-1 text-center">
+                    <div  class="col-md-6">
+                        <div>
+                            <button  class=" btn  bg-warning w-50">Option 1</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <button class="  btn w-75 bg-warning">Option 2</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-3">
+                            <button class="mx-5 btn w-75 bg-warning">Option 3</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-2">
+                            <button class="mx-5 btn w-75 bg-warning">Option 4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="showResult" class="showResult">
+            <div id="abc" class="resltshw">
+                <div>
+            <p>Marks <span id="marksCal"></span></p>
+            <p>percentage <span id="marksPer"></span></p>
+            <p>Status <span id="marksStat"></span></p>
+        </div>
+        </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
